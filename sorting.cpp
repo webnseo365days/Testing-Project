@@ -6,20 +6,18 @@ using namespace std;
 
 int main ()
 {
-	int a,temp, nums[4];
+	int temp, nums[4];
  
-		cout << "Please enter members of arrays \n";
-		cin >> a;
 		
 	// filling of array members
-	for(int i=0; i<a; i++)
+	for(int i=0; i<4; i++)
 	{
 		cout << "Please enter a number \n";
 		cin >> nums[i];	
 	}
-		for(int i=0; i<a; i++)
+		for(int i=0; i<4; i++)
 		{
-			for(int j=0; j<a-1; j++)
+			for(int j=0; j<3; j++)
 			{
 				
 				if(nums[j] < nums[j+1]){
@@ -33,7 +31,7 @@ int main ()
 		 
 		}
  
- 	for(int k=0; k<a; k++)
+ 	for(int k=0; k<4; k++)
  	{
 	
 	 	cout << nums[k] << endl;	

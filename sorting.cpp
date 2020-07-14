@@ -3,7 +3,7 @@
 #include<math.h>
 
 using namespace std;
-
+//Check 
 int main ()
 {
 	int a,temp, nums[4];
